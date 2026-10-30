@@ -11,6 +11,6 @@ s = s.replace("a", "@") # substitui a por @
 s = s.replace("Á", "@") # substitui Á por @
 s = s.replace("á", "@") # substitui á por @
 print(s) 
+print(f"@ existe {s.count("@")} vezes na String")
 
 print(s.split(" ")) # separa a string em uma lista de palavras
-print(f"@ existe {s.count("@")} vezes na String")
