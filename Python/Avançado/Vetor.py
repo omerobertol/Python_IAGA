@@ -21,13 +21,22 @@ def somar(x):
     return(sum(x))
 
 def media(x):
-    return(sum(x) / len(x))
+    if (len(x) == 0):   
+        return(0)
+    else:
+        return(sum(x) / len(x))
 
 def menor_Valor(x):
-    return min(x)
+    if (len(x) == 0):
+        return(0)
+    else:
+        return min(x)
 
 def maior_Valor(x):
-    return max(x)
+    if (len(x) == 0):
+        return(0)
+    else:
+        return max(x)
 
 def toString(id, x):
     result = saida(id, x)
