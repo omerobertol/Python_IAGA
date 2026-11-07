@@ -4,4 +4,4 @@ a = int(input("Digite o primeiro número: "))
 b = int(input("Digite o segundo número.: "))
 
 print()
-print(toString(a, b))
+print(toString(a, b)) # usando o modelo estruturado (modular)
