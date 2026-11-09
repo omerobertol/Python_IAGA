@@ -33,5 +33,6 @@ def toString(n):
 # Entrada de Dados
 n = int(input("Digite um número: "))
 
+# Saída de Dados
 print()
 print(toString(n))
